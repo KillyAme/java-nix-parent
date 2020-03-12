@@ -51,7 +51,6 @@ public class GameOfLife {
                             }
                         }
                     }
-                    System.out.print("-");
                     if (countAlive == 3)
                         arrayAfter[i][j] = 1;
                 }
