@@ -12,6 +12,6 @@ public class FirstUniqueElement {
                 unique.add(s);
             } else unique.remove(s);
         }
-        return unique.stream().findFirst().orElse("No unique elements");
+        return unique.stream().findFirst().orElse(null);
     }
 }
